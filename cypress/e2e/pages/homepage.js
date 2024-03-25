@@ -1,5 +1,5 @@
 import AbstractBrowsingPage from "./AbstractBrowsingPage"
-import title from "./PageComponents/title"
+import title from "./pagecomponents/title"
 import salebanner from "./pagecomponents/salebanner"
 import {sliders} from '../../fixtures/slider.json'
 import {header} from '../../fixtures/header.json'
