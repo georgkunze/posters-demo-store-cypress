@@ -17,6 +17,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.7.0"
+    "cypress": "^13.7.1",
+    "cypress-image-diff-html-report": "^2.0.2",
+    "cypress-image-diff-js": "^2.1.4"
   }
 }

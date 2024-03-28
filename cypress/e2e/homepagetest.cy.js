@@ -1,6 +1,6 @@
 import HomePage from "./pages/homepage"
 
-describe('template spec', () => {
+describe('Homepagetest', () => {
   it('Visit homepage and check title', () => {
     HomePage.open()
     HomePage.isExpectedPage()
