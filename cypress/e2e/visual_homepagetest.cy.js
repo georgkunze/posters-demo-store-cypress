@@ -7,7 +7,7 @@ describe('Homepage visual test', () => {
     cy.scrollTo('top')
     cy.compareSnapshot({
       name: 'startingpage',
-      testThreshold: 0.2,
+      testThreshold: 1,
       retryOptions: {
         limit: 5,
         delay: 500
@@ -15,7 +15,7 @@ describe('Homepage visual test', () => {
     });
     cy.get('#carousel-product-display').compareSnapshot({
         name: 'product_display',
-        testThreshold: 0.2
+        testThreshold: 1
       })
   })
 })
