@@ -4,6 +4,7 @@ describe('Homepage visual test', () => {
   it('open homepage and compare with screenshot', () => {
     HomePage.open()
     cy.viewport(1000, 660)
+    cy.scrollTo('top')
     cy.compareSnapshot({
       name: 'startingpage',
       testThreshold: 0.2,
